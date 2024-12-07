@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Our Products</h1>
+        <div class="content-wrapper">
+            <div id="products-container" class="products-grid">
+                <!-- Products will be dynamically loaded here -->
+            </div>
+            <div class="cart-section">
+                <h2>Shopping Cart</h2>
+                <div id="cart-items" class="cart-items">
+                    <!-- Cart items will be dynamically loaded here -->
+                </div>
+                <div class="cart-summary">
+                    <p>Subtotal: $<span id="product-total">0.00</span></p>
+                    <p>Delivery: $<span id="delivery">0.00</span></p>
+                    <p>Tax: $<span id="tax">0.00</span></p>
+                    <p>Total: $<span id="cart-total">0.00</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
